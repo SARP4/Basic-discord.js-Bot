@@ -1,4 +1,5 @@
 {
 "prefix": "yourbotprefix",
-"token": "yourbottoken"
+"token": "yourbottoken",
+"game": "yourgamestatus"
 }
