@@ -10,4 +10,4 @@ Install LTS Version now its 8.9.3
 5) Happy Codding!
 
 # Need Support?
-Join Habchy's Lounge on Discord : http://discord.gg/FNNNqgb
+Join Habchy's Lounge on Discord : http://discord.gg/FNNNgqb
