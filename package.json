@@ -1,0 +1,41 @@
+{
+  "name": "Basic-discord.js-Bot",
+  "description": "Basic discord.js bot for starters",
+  "version": "v1",
+  "keywords": [
+    "Basic Bot"],
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "contributors": [
+    {
+      "name": "SarpTurker",
+      "email": "",
+      "web": "https://sarpturker.com"
+    }
+  ],
+  "dependencies": {
+    "": "",
+    "https://github.com/SarpTurker/Basic-discord.js-Bot": "v1"
+  },
+  "bugs": {
+    "web": "https://github.com/SarpTurker/Basic-discord.js-Bot/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/SarpTurker/Basic-discord.js-Bot.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/SarpTurker/Basic-discord.js-Bot.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "GNU GPL v3",
+      "url": ""
+    }
+  ],
+  "homepage": "https://github.com/SarpTurker/Basic-discord.js-Bot"
+}
