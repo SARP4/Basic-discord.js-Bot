@@ -2,22 +2,22 @@
 // Discord.js
 var Discord = require("discord.js");
 
+// autoReconnect is enabed
+var client = new Discord.Client({autoReconnect: true});
+
 
 // Here we are adding config file
 const config = require("./settings/config.json");
-
-// autoReconnect is enabed
-var bot = new Discord.Client({autoReconnect: true});
 
 
 // Set the prefix
 let prefix = config.prefix;
 
 // Ready? Set? Go!aha
-bot.on('ready', () => {
+client.on('ready', () => {
 
     // set status
-  bot.user.setStatus("online"," Your Game Here ") // ("status","game","url twitch")
+  client.user.setStatus("online"," Your Game Here ") // ("status","game","url twitch")
    console.log('Initialization of statue \n')
 
 
@@ -25,7 +25,7 @@ bot.on('ready', () => {
 });
 
 
-bot.on("message", msg => {
+client.on("message", msg => {
 
       // Command /help
      if (msg.content.startsWith(prefix + "help")) {
@@ -42,4 +42,4 @@ bot.on("message", msg => {
 
 
 //Login to your bot edit the config file on settings folder
-bot.login(config.token); // Find your token > https://discordapp.com/developers/applications/me
+client.login(config.token); // Find your token > https://discordapp.com/developers/applications/me
