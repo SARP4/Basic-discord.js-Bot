@@ -8,3 +8,6 @@ Install LTS Version now its 8.9.3
 3) Install This Repo : `git clone https://github.com/SarpTurker/Basic-discord.js-Bot.git` Or Just install zip
 4) Fill the [config file](https://github.com/SarpTurker/Basic-discord.js-Bot/settings/config.json) /settings/config.json
 5) Happy Codding!
+
+# Need Support?
+Join Habchy's Lounge on Discord : http://discord.gg/FNNNqgb
