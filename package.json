@@ -5,7 +5,7 @@
   "keywords": [
     "Basic Bot"],
   "scripts": {
-    "start": "node basicbot.js"
+    "start": "node basic-bot.js"
   },
   "contributors": [
     {
